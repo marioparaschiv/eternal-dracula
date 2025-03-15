@@ -1,0 +1,41 @@
+{
+	"name": "eternal-dracula",
+	"displayName": "Eternal Dracula",
+	"description": "A darker, tinted version of dracula.",
+	"version": "1.0.0",
+	"author": "Mario <me@marioparaschiv.com> (github.com/marioparaschiv)",
+	"publisher": "Mario",
+	"license": "MIT",
+	"icon": "icon.png",
+	"homepage": "https://github.com/marioparaschiv/eternal-dracula",
+	"repository": {
+		"url": "https://github.com/marioparaschiv/eternal-dracula",
+		"type": "git"
+	},
+	"bugs": {
+		"url": "https://github.com/marioparaschiv/eternal-dracula/issues"
+	},
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Eternal Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/eternal-dracula.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "*"
+	}
+}
